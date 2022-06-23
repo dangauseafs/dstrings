@@ -20,6 +20,11 @@ extensions = [
     'sphinx.ext.napoleon'
 ]
 
+
+# Napoleon settings
+napoleon_numpy_docstring = True
+
+
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
